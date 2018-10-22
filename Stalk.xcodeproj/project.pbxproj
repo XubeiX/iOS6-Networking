@@ -12,9 +12,11 @@
 		75F1FA23217E2F3400031F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F1FA21217E2F3400031F40 /* Main.storyboard */; };
 		75F1FA25217E2F3600031F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F1FA24217E2F3600031F40 /* Assets.xcassets */; };
 		75F1FA28217E2F3600031F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F1FA26217E2F3600031F40 /* LaunchScreen.storyboard */; };
+		AF8CB355F27BCD654CAAC065 /* Pods_Stalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767424EB254546757EF8A87E /* Pods_Stalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09E880F744B6456BABE67471 /* Pods-Stalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stalk/Pods-Stalk.debug.xcconfig"; sourceTree = "<group>"; };
 		75F1FA1A217E2F3400031F40 /* Stalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F1FA1D217E2F3400031F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F1FA1F217E2F3400031F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		75F1FA24217E2F3600031F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75F1FA27217E2F3600031F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75F1FA29217E2F3600031F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767424EB254546757EF8A87E /* Pods_Stalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC1F223C10E97255501BE5C /* Pods-Stalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stalk/Pods-Stalk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8CB355F27BCD654CAAC065 /* Pods_Stalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BA47521F3335A689DE8E84E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				767424EB254546757EF8A87E /* Pods_Stalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75F1FA11217E2F3400031F40 = {
 			isa = PBXGroup;
 			children = (
 				75F1FA1C217E2F3400031F40 /* Stalk */,
 				75F1FA1B217E2F3400031F40 /* Products */,
+				F118DB896D1236A1A368E51B /* Pods */,
+				2BA47521F3335A689DE8E84E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +69,7 @@
 		75F1FA1C217E2F3400031F40 /* Stalk */ = {
 			isa = PBXGroup;
 			children = (
+				75F1FA2F217E389300031F40 /* Support Files */,
 				75F1FA1D217E2F3400031F40 /* AppDelegate.swift */,
 				75F1FA1F217E2F3400031F40 /* ViewController.swift */,
 				75F1FA21217E2F3400031F40 /* Main.storyboard */,
@@ -64,6 +80,22 @@
 			path = Stalk;
 			sourceTree = "<group>";
 		};
+		75F1FA2F217E389300031F40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		F118DB896D1236A1A368E51B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09E880F744B6456BABE67471 /* Pods-Stalk.debug.xcconfig */,
+				DAC1F223C10E97255501BE5C /* Pods-Stalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75F1FA2C217E2F3600031F40 /* Build configuration list for PBXNativeTarget "Stalk" */;
 			buildPhases = (
+				08CC894650093B87B7E5791E /* [CP] Check Pods Manifest.lock */,
 				75F1FA16217E2F3400031F40 /* Sources */,
 				75F1FA17217E2F3400031F40 /* Frameworks */,
 				75F1FA18217E2F3400031F40 /* Resources */,
+				82F58EECC5D9A116140944E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +163,61 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08CC894650093B87B7E5791E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F58EECC5D9A116140944E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stalk/Pods-Stalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stalk/Pods-Stalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75F1FA16217E2F3400031F40 /* Sources */ = {
@@ -280,6 +369,7 @@
 		};
 		75F1FA2D217E2F3600031F40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E880F744B6456BABE67471 /* Pods-Stalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +380,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ratajczak.artur.Stalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +388,7 @@
 		};
 		75F1FA2E217E2F3600031F40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC1F223C10E97255501BE5C /* Pods-Stalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ratajczak.artur.Stalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
