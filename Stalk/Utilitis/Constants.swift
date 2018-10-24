@@ -9,3 +9,5 @@
 import Foundation
 
 let TO_LOGIN_SEGUE = "toLoginVC"
+let TO_CREATE_ACCOUNT_SEGUE = "toCreateAccountVC"
+let UNWIND_TO_CHANNEL_SEGUE = "unwindToChannelVC"

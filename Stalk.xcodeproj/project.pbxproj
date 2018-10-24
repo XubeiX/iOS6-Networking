@@ -10,6 +10,7 @@
 		75EC4A722180D568001EB0BB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC4A712180D568001EB0BB /* GradientView.swift */; };
 		75EC4A752180DEAC001EB0BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC4A742180DEAC001EB0BB /* Constants.swift */; };
 		75EC4A772180E342001EB0BB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC4A762180E342001EB0BB /* LoginVC.swift */; };
+		75EC4A792180E4FE001EB0BB /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC4A782180E4FE001EB0BB /* CreateAccountVC.swift */; };
 		75F1FA1E217E2F3400031F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1FA1D217E2F3400031F40 /* AppDelegate.swift */; };
 		75F1FA23217E2F3400031F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F1FA21217E2F3400031F40 /* Main.storyboard */; };
 		75F1FA25217E2F3600031F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F1FA24217E2F3600031F40 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		75EC4A712180D568001EB0BB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		75EC4A742180DEAC001EB0BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		75EC4A762180E342001EB0BB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		75EC4A782180E4FE001EB0BB /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		75F1FA1A217E2F3400031F40 /* Stalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F1FA1D217E2F3400031F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F1FA22217E2F3400031F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				75F1FA34217E3D4B00031F40 /* ChatVC.swift */,
 				75F1FA36217E3D5A00031F40 /* ChannelVC.swift */,
 				75EC4A762180E342001EB0BB /* LoginVC.swift */,
+				75EC4A782180E4FE001EB0BB /* CreateAccountVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				75F1FA35217E3D4B00031F40 /* ChatVC.swift in Sources */,
 				75EC4A772180E342001EB0BB /* LoginVC.swift in Sources */,
 				75F1FA37217E3D5B00031F40 /* ChannelVC.swift in Sources */,
+				75EC4A792180E4FE001EB0BB /* CreateAccountVC.swift in Sources */,
 				75EC4A722180D568001EB0BB /* GradientView.swift in Sources */,
 				75F1FA1E217E2F3400031F40 /* AppDelegate.swift in Sources */,
 			);
