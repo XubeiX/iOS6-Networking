@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75EC4A722180D568001EB0BB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC4A712180D568001EB0BB /* GradientView.swift */; };
 		75F1FA1E217E2F3400031F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1FA1D217E2F3400031F40 /* AppDelegate.swift */; };
 		75F1FA23217E2F3400031F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F1FA21217E2F3400031F40 /* Main.storyboard */; };
 		75F1FA25217E2F3600031F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F1FA24217E2F3600031F40 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		09E880F744B6456BABE67471 /* Pods-Stalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stalk/Pods-Stalk.debug.xcconfig"; sourceTree = "<group>"; };
+		75EC4A712180D568001EB0BB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		75F1FA1A217E2F3400031F40 /* Stalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F1FA1D217E2F3400031F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F1FA22217E2F3400031F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		75F1FA33217E3D2F00031F40 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				75EC4A712180D568001EB0BB /* GradientView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				75F1FA35217E3D4B00031F40 /* ChatVC.swift in Sources */,
 				75F1FA37217E3D5B00031F40 /* ChannelVC.swift in Sources */,
+				75EC4A722180D568001EB0BB /* GradientView.swift in Sources */,
 				75F1FA1E217E2F3400031F40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
