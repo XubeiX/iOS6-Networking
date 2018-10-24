@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		75EC4A722180D568001EB0BB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC4A712180D568001EB0BB /* GradientView.swift */; };
+		75EC4A752180DEAC001EB0BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC4A742180DEAC001EB0BB /* Constants.swift */; };
+		75EC4A772180E342001EB0BB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC4A762180E342001EB0BB /* LoginVC.swift */; };
 		75F1FA1E217E2F3400031F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1FA1D217E2F3400031F40 /* AppDelegate.swift */; };
 		75F1FA23217E2F3400031F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F1FA21217E2F3400031F40 /* Main.storyboard */; };
 		75F1FA25217E2F3600031F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F1FA24217E2F3600031F40 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		09E880F744B6456BABE67471 /* Pods-Stalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stalk/Pods-Stalk.debug.xcconfig"; sourceTree = "<group>"; };
 		75EC4A712180D568001EB0BB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		75EC4A742180DEAC001EB0BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		75EC4A762180E342001EB0BB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		75F1FA1A217E2F3400031F40 /* Stalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F1FA1D217E2F3400031F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F1FA22217E2F3400031F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +56,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		75EC4A732180DE97001EB0BB /* Utilitis */ = {
+			isa = PBXGroup;
+			children = (
+				75EC4A742180DEAC001EB0BB /* Constants.swift */,
+			);
+			path = Utilitis;
+			sourceTree = "<group>";
+		};
 		75F1FA11217E2F3400031F40 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +85,7 @@
 		75F1FA1C217E2F3400031F40 /* Stalk */ = {
 			isa = PBXGroup;
 			children = (
+				75EC4A732180DE97001EB0BB /* Utilitis */,
 				75F1FA33217E3D2F00031F40 /* Views */,
 				75F1FA32217E3D2700031F40 /* Models */,
 				75F1FA31217E3D1A00031F40 /* Controllers */,
@@ -98,6 +111,7 @@
 			children = (
 				75F1FA34217E3D4B00031F40 /* ChatVC.swift */,
 				75F1FA36217E3D5A00031F40 /* ChannelVC.swift */,
+				75EC4A762180E342001EB0BB /* LoginVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -254,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EC4A752180DEAC001EB0BB /* Constants.swift in Sources */,
 				75F1FA35217E3D4B00031F40 /* ChatVC.swift in Sources */,
+				75EC4A772180E342001EB0BB /* LoginVC.swift in Sources */,
 				75F1FA37217E3D5B00031F40 /* ChannelVC.swift in Sources */,
 				75EC4A722180D568001EB0BB /* GradientView.swift in Sources */,
 				75F1FA1E217E2F3400031F40 /* AppDelegate.swift in Sources */,
