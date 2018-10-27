@@ -23,3 +23,9 @@ let USER_EMAIL = "user-email"
 //MARK: URL Constans
 let BASE_URL = "http://stalk-chat.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
+let URL_LOGIN = "\(BASE_URL)account/login"
+
+//MARK: Headers
+let HEADER = [
+    "Content-Type" : "application/json; charset=utf-8"
+]
