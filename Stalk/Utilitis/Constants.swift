@@ -24,6 +24,7 @@ let USER_EMAIL = "user-email"
 let BASE_URL = "http://stalk-chat.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
 let URL_LOGIN = "\(BASE_URL)account/login"
+let URL_USER_ADD = "\(BASE_URL)user/add"
 
 //MARK: Headers
 let HEADER = [
