@@ -104,11 +104,10 @@
                                 <rect key="frame" x="273" y="91.5" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1t-Ia-ERw">
-                                <rect key="frame" x="100" y="589.5" width="80" height="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1t-Ia-ERw">
+                                <rect key="frame" x="100" y="589.5" width="195" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="CGy-ht-kAP"/>
-                                    <constraint firstAttribute="width" constant="80" id="irD-fJ-75d"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Login">
@@ -158,6 +157,7 @@
                             <constraint firstItem="bMO-3D-JsR" firstAttribute="trailing" secondItem="dfr-Yr-uTl" secondAttribute="trailing" constant="80" id="6yl-LJ-qIC"/>
                             <constraint firstItem="w3W-dQ-ZgS" firstAttribute="leading" secondItem="bMO-3D-JsR" secondAttribute="leading" constant="20" id="8i1-s2-ViP"/>
                             <constraint firstItem="d3G-36-zQt" firstAttribute="top" secondItem="bMO-3D-JsR" secondAttribute="top" constant="25" id="A9l-EL-hnp"/>
+                            <constraint firstItem="bMO-3D-JsR" firstAttribute="trailing" secondItem="Y1t-Ia-ERw" secondAttribute="trailing" constant="80" id="Did-BY-9fy"/>
                             <constraint firstItem="bzx-TS-RdH" firstAttribute="leading" secondItem="bMO-3D-JsR" secondAttribute="leading" constant="20" id="Gnj-HF-Fdj"/>
                             <constraint firstItem="bMO-3D-JsR" firstAttribute="bottom" secondItem="bzx-TS-RdH" secondAttribute="bottom" constant="20" id="LJl-Ub-nM0"/>
                             <constraint firstItem="Y1t-Ia-ERw" firstAttribute="leading" secondItem="bzx-TS-RdH" secondAttribute="trailing" constant="10" id="MWq-fg-wcJ"/>
