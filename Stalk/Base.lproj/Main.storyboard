@@ -240,6 +240,9 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginBtnPressed:" destination="OuC-PR-ii8" eventType="touchUpInside" id="1JH-xZ-P0d"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TaV-Rd-ysF">
                                 <rect key="frame" x="70" y="255" width="235" height="45"/>
@@ -310,6 +313,8 @@
                         <viewLayoutGuide key="safeArea" id="pQB-7q-M4N"/>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="TaV-Rd-ysF" id="dlJ-rK-lgK"/>
+                        <outlet property="passwordTxt" destination="FqK-xT-1Rq" id="0RQ-Cx-MgY"/>
                         <segue destination="A8Z-b6-gWS" kind="show" identifier="toCreateAccountVC" id="Lb1-k1-6SO"/>
                     </connections>
                 </viewController>

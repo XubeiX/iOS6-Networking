@@ -74,6 +74,10 @@ class CreateAccountVC: UIViewController {
                         })
                     }
                 })
+            } else {
+                debugPrint("Can't register user")
+                SVProgressHUD.dismiss()
+                SVProgressHUD.showError(withStatus: "User exist")
             }
         }
     }
