@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 typealias CompletionHandler = (_ Success: Bool) -> ()
 
@@ -14,6 +15,7 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
 let TO_LOGIN_SEGUE = "toLoginVC"
 let TO_CREATE_ACCOUNT_SEGUE = "toCreateAccountVC"
 let UNWIND_TO_CHANNEL_SEGUE = "unwindToChannelVC"
+let TO_AVATAR_PICKER_SEGUE = "toAvatarPickerVC"
 
 //MARK: User Defaults
 let TOKEN_KEY = "token"
@@ -30,3 +32,8 @@ let URL_USER_ADD = "\(BASE_URL)user/add"
 let HEADER = [
     "Content-Type" : "application/json; charset=utf-8"
 ]
+
+let stalkPlaceholderColor = #colorLiteral(red: 0.3647058824, green: 0.3952121437, blue: 0.8937282562, alpha: 0.5)
+
+//MARK: Notification Constants
+let NOTIFY_USER_DATA_DID_CHANGE = Notification.Name("noptifyUserDataChanged")

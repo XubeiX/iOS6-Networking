@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7584280B218DD25300112E4B /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7584280A218DD25300112E4B /* AvatarPickerVC.swift */; };
+		7584280D218DD3EB00112E4B /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7584280C218DD3EB00112E4B /* AvatarCell.swift */; };
+		7584280F218DDCAE00112E4B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7584280E218DDCAE00112E4B /* CircleImage.swift */; };
 		75A5CAD021849ABF00DA19A4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5CACF21849ABF00DA19A4 /* AuthService.swift */; };
 		75A5CAD22184A62600DA19A4 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5CAD12184A62600DA19A4 /* RoundedButton.swift */; };
 		75A5CAD42184AE1F00DA19A4 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5CAD32184AE1F00DA19A4 /* UserDataService.swift */; };
@@ -25,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		09E880F744B6456BABE67471 /* Pods-Stalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stalk/Pods-Stalk.debug.xcconfig"; sourceTree = "<group>"; };
+		7584280A218DD25300112E4B /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		7584280C218DD3EB00112E4B /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		7584280E218DDCAE00112E4B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		75A5CACF21849ABF00DA19A4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		75A5CAD12184A62600DA19A4 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		75A5CAD32184AE1F00DA19A4 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -131,6 +137,7 @@
 				75F1FA36217E3D5A00031F40 /* ChannelVC.swift */,
 				75EC4A762180E342001EB0BB /* LoginVC.swift */,
 				75EC4A782180E4FE001EB0BB /* CreateAccountVC.swift */,
+				7584280A218DD25300112E4B /* AvatarPickerVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -147,6 +154,8 @@
 			children = (
 				75EC4A712180D568001EB0BB /* GradientView.swift */,
 				75A5CAD12184A62600DA19A4 /* RoundedButton.swift */,
+				7584280C218DD3EB00112E4B /* AvatarCell.swift */,
+				7584280E218DDCAE00112E4B /* CircleImage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,15 +243,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Stalk-checkManifestLockResult.txt",
 			);
@@ -256,21 +261,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Stalk/Pods-Stalk-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
@@ -289,7 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EC4A752180DEAC001EB0BB /* Constants.swift in Sources */,
+				7584280B218DD25300112E4B /* AvatarPickerVC.swift in Sources */,
 				75F1FA35217E3D4B00031F40 /* ChatVC.swift in Sources */,
+				7584280F218DDCAE00112E4B /* CircleImage.swift in Sources */,
 				75EC4A772180E342001EB0BB /* LoginVC.swift in Sources */,
 				75F1FA37217E3D5B00031F40 /* ChannelVC.swift in Sources */,
 				75A5CAD22184A62600DA19A4 /* RoundedButton.swift in Sources */,
@@ -297,6 +302,7 @@
 				75A5CAD42184AE1F00DA19A4 /* UserDataService.swift in Sources */,
 				75EC4A722180D568001EB0BB /* GradientView.swift in Sources */,
 				75F1FA1E217E2F3400031F40 /* AppDelegate.swift in Sources */,
+				7584280D218DD3EB00112E4B /* AvatarCell.swift in Sources */,
 				75A5CAD021849ABF00DA19A4 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
